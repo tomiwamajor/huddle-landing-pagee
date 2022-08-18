@@ -5,7 +5,9 @@
 
 body {
   background-image: url(/images/bg-desktop.svg);
-  background-color: #674baf; }
+  background-color: #674baf;
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 .logo {
   margin-top: 40px;
