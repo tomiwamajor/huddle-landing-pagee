@@ -1,0 +1,14 @@
+{
+  "name": "huddle-landing-page-with-single-introductory-section-master",
+  "version": "1.0.0",
+  "description": "huddle landing page",
+  "main": "index.js",
+  "scripts": {
+    "huddle": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "adetomiwa",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
