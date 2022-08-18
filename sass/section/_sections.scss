@@ -24,6 +24,7 @@ body {
   max-width: 90%;
   margin-right: auto;
   margin-left: auto;
+  gap: 40px;
 
   @media only screen and (max-width: 1200px) {
     flex-direction: column;
