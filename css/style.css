@@ -29,6 +29,9 @@ body {
       text-align: center; } }
   .content__img {
     width: 200%; }
+    @media only screen and (max-width: 1200px) {
+      .content__img {
+        width: 100%; } }
   .content__mockup {
     width: 100%; }
   .content__text {
@@ -41,22 +44,22 @@ body {
     .content__text--header {
       font-family: "Poppins", sans-serif;
       font-weight: 600;
-      font-size: 50px;
+      font-size: 40px;
       color: #fff;
       padding-top: 40px;
       padding-bottom: 20px; }
       @media only screen and (max-width: 600px) {
         .content__text--header {
-          font-size: 40px; } }
+          font-size: 30px; } }
     .content__text--paragraph {
       font-family: "Poppins", sans-serif;
       font-weight: 400;
-      font-size: 25px;
+      font-size: 20px;
       color: #fff;
       padding-bottom: 20px; }
       @media only screen and (max-width: 600px) {
         .content__text--paragraph {
-          font-size: 20px; } }
+          font-size: 15px; } }
     .content__text--btn {
       color: #674baf;
       border: none;
@@ -64,12 +67,15 @@ body {
       font-family: "Poppins", sans-serif;
       font-weight: 400;
       transition: all 0.4s;
-      width: 160px;
-      font-size: 15px;
+      width: 200px;
+      font-size: 14px;
       padding-top: 15px;
       padding-bottom: 15px;
       box-shadow: 0 7px 20px rgba(0, 0, 0, 0.866);
       margin-bottom: 150px; }
+      @media only screen and (max-width: 900px) {
+        .content__text--btn {
+          width: 300px; } }
       .content__text--btn:hover {
         cursor: pointer;
         transform: translateY(-2px);

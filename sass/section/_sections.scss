@@ -33,6 +33,10 @@ body {
   }
   &__img {
     width: 200%;
+
+    @media only screen and (max-width: 1200px) {
+      width: 100%;
+    }
   }
   &__mockup {
     width: 100%;
@@ -49,24 +53,24 @@ body {
     &--header {
       font-family: "Poppins", sans-serif;
       font-weight: 600;
-      font-size: 50px;
+      font-size: 40px;
       color: #fff;
       padding-top: 40px;
       padding-bottom: 20px;
 
       @media only screen and (max-width: 600px) {
-        font-size: 40px;
+        font-size: 30px;
       }
     }
     &--paragraph {
       font-family: "Poppins", sans-serif;
       font-weight: 400;
-      font-size: 25px;
+      font-size: 20px;
       color: #fff;
       padding-bottom: 20px;
 
       @media only screen and (max-width: 600px) {
-        font-size: 20px;
+        font-size: 15px;
       }
     }
     &--btn {
@@ -76,12 +80,16 @@ body {
       font-family: "Poppins", sans-serif;
       font-weight: 400;
       transition: all 0.4s;
-      width: 160px;
-      font-size: 15px;
+      width: 200px;
+      font-size: 14px;
       padding-top: 15px;
       padding-bottom: 15px;
       box-shadow: 0 7px 20px rgba(0, 0, 0, 0.866);
       margin-bottom: 150px;
+
+      @media only screen and (max-width: 900px) {
+        width: 300px;
+      }
 
       &:hover {
         cursor: pointer;
