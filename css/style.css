@@ -45,12 +45,18 @@ body {
       color: #fff;
       padding-top: 40px;
       padding-bottom: 20px; }
+      @media only screen and (max-width: 600px) {
+        .content__text--header {
+          font-size: 40px; } }
     .content__text--paragraph {
       font-family: "Poppins", sans-serif;
       font-weight: 400;
       font-size: 25px;
       color: #fff;
       padding-bottom: 20px; }
+      @media only screen and (max-width: 600px) {
+        .content__text--paragraph {
+          font-size: 20px; } }
     .content__text--btn {
       color: #674baf;
       border: none;

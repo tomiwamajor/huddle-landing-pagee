@@ -53,6 +53,10 @@ body {
       color: #fff;
       padding-top: 40px;
       padding-bottom: 20px;
+
+      @media only screen and (max-width: 600px) {
+        font-size: 40px;
+      }
     }
     &--paragraph {
       font-family: "Poppins", sans-serif;
@@ -60,6 +64,10 @@ body {
       font-size: 25px;
       color: #fff;
       padding-bottom: 20px;
+
+      @media only screen and (max-width: 600px) {
+        font-size: 20px;
+      }
     }
     &--btn {
       color: hsl(257, 40%, 49%);
