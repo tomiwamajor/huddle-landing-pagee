@@ -32,9 +32,10 @@ body {
     text-align: center;
   }
   &__img {
-    width: 200%;
+    flex: 0 0 55%;
 
     @media only screen and (max-width: 1200px) {
+      flex: unset;
       width: 100%;
     }
   }
